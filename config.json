@@ -1,0 +1,50 @@
+{
+    "auth": {
+        "registry.cn-hangzhou.aliyuncs.com": {
+            "username": "a121673163",
+            "password": "HUB_PASSWORD"
+        }
+    },
+    "images": {
+        "quay.io/prometheus/prometheus": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/prometheus",        
+        "quay.io/prometheus/node-exporter": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/node-exporter",
+        "quay.io/prometheus-operator/prometheus-config-reloader": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/prometheus-config-reloader",
+        "quay.io/prometheus-operator/prometheus-operator": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/prometheus-operator",
+        "quay.io/prometheus/alertmanager": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/alertmanager",
+        "quay.io/prometheus/pushgateway": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/pushgateway",
+        "quay.io/prometheus/blackbox-exporter": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/blackbox-exporter",
+          
+        "registry.hub.docker.com/rook/ceph": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/rook-ceph",
+        "k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/nfs-subdir-external-provisioner",
+        "quay.io/ceph/ceph": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/ceph",
+        "quay.io/cephcsi/cephcsi": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cephcsi",
+        "k8s.gcr.io/sig-storage/csi-node-driver-registrar": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/csi-node-driver-registrar",
+        "k8s.gcr.io/sig-storage/csi-provisioner": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/csi-provisioner",
+        "k8s.gcr.io/sig-storage/csi-resizer": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/csi-resizer",
+        "k8s.gcr.io/sig-storage/csi-snapshotter": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/csi-snapshotter",
+        "k8s.gcr.io/sig-storage/csi-attacher": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/csi-attacher",
+        "k8s.gcr.io/sig-storage/nfsplugin": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/nfsplugin",
+        
+        "k8s.gcr.io/prometheus-adapter/prometheus-adapter": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/prometheus-adapter",
+        "k8s.gcr.io/dns/k8s-dns-node-cache": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/k8s-dns-node-cache",
+        "quay.io/coreos/flannel": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/coreos-flannel",
+        "quay.io/coreos/etcd": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/coreos-etcd",
+        "quay.io/thanos/thanos": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/thanos",
+        "quay.io/csiaddons/k8s-sidecar": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/k8s-sidecar",
+        "quay.io/csiaddons/volumereplication-operator": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/volumereplication-operator",
+        "registry.k8s.io/conformance": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/conformance",
+        "gcr.io/kaniko-project/executor": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/kaniko-project-executor",
+        "gcr.io/google-samples/xtrabackup": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/google-samples-xtrabackup",
+        
+        "quay.io/cilium/cilium": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium",
+        "quay.io/cilium/operator-generic": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-operator-generic",
+        "quay.io/cilium/certgen": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-certgen",
+        "quay.io/cilium/hubble-relay": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-hubble-relay",
+        "quay.io/cilium/hubble-ui-backend": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-hubble-ui-backend",
+        "quay.io/cilium/hubble-ui": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-hubble-ui",
+        "quay.io/cilium/cilium-etcd-operator": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-etcd-operator",
+        "quay.io/cilium/operator": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-operator",
+        "quay.io/cilium/startup-script": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-startup-script",
+        "quay.io/cilium/clustermesh-apiserver": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/cilium-clustermesh-apiserver"
+    }
+}
